@@ -1,4 +1,5 @@
 ---
+status_publikacji: oficjalna
 nazwa: "Teoria modeli"
 nazwa_en: "Model Theory"
 prowadzacy:
