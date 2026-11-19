@@ -1,8 +1,8 @@
 ---
 nazwa: "Teoria modeli"
 nazwa_en: "Model Theory"
-prowadzacy:
-  - "Ludomir Newelski"
+prowadzacy_ze_spisu:
+  - "_cms/pracownicy/ludomir-newelski.yml"
 kontakt: "Ludomir.Newelski@math.uni.wroc.pl"
 zaklad: "algebra-i-teoria-modeli"
 aktywne: true
