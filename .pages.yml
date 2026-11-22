@@ -36,7 +36,7 @@ content:
     default: true
   - name: body
     label: Opis (Markdown, wzory w $...$)
-    description: "Zwykły Markdown: akapity oddziela pusta linia; **pogrubienie**, *kursywa*, [tekst linku](https://…); lista: „- ” na początku linii; ## = nagłówek sekcji. Plik PDF: wgraj w „Media” i wklej link w postaci /pliki/seminaria/teoria-modeli/nazwa-pliku.pdf. Po wgraniu sprawdź nazwę w Media: gdy plik o tej nazwie już jest, CMS dopisze -1. Komentarze <!-- … --> to podpowiedzi; na stronie ich nie widać. Wzory w $…$."
+    description: "Zwykły Markdown: akapity oddziela pusta linia; **pogrubienie**, *kursywa*, [tekst linku](https://…); lista: „- ” na początku linii; ## = nagłówek sekcji. Plik PDF: wgraj w „Media” i w linku wpisz samą nazwę pliku: [tekst](nazwa.pdf); plik z innego repozytorium: [tekst](Web-Nauka/nazwa.pdf). Po wgraniu sprawdź nazwę w Media: gdy taka już jest, CMS dopisze -1. Komentarze <!-- … --> to podpowiedzi; na stronie ich nie widać. Wzory w $…$."
     type: code
     options:
       format: markdown
@@ -169,7 +169,7 @@ content:
     type: string
   - name: body
     label: Streszczenie (Markdown, wzory w $...$)
-    description: "Zwykły Markdown: akapity oddziela pusta linia; **pogrubienie**, *kursywa*, [tekst linku](https://…); lista: „- ” na początku linii; ## = nagłówek sekcji. Plik PDF: wgraj w „Media” i wklej link w postaci /pliki/seminaria/teoria-modeli/nazwa-pliku.pdf. Po wgraniu sprawdź nazwę w Media: gdy plik o tej nazwie już jest, CMS dopisze -1. Komentarze <!-- … --> to podpowiedzi; na stronie ich nie widać. Wzory w $…$. Pusta Treść (albo sam komentarz) = referat bez streszczenia."
+    description: "Zwykły Markdown: akapity oddziela pusta linia; **pogrubienie**, *kursywa*, [tekst linku](https://…); lista: „- ” na początku linii; ## = nagłówek sekcji. Plik PDF: wgraj w „Media” i w linku wpisz samą nazwę pliku: [tekst](nazwa.pdf); plik z innego repozytorium: [tekst](Web-Nauka/nazwa.pdf). Po wgraniu sprawdź nazwę w Media: gdy taka już jest, CMS dopisze -1. Komentarze <!-- … --> to podpowiedzi; na stronie ich nie widać. Wzory w $…$. Pusta Treść (albo sam komentarz) = referat bez streszczenia."
     type: code
     options:
       format: markdown
