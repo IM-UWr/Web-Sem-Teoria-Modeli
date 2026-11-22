@@ -3,8 +3,8 @@
 # Zlecenie 40: opis seminarium i streszczenie referatu zaraz pod tytułem, pola EN pod polskimi, ściągawka przy Treści, szablon streszczenia, ukryta notatka redakcyjna.
 # Zlecenie 48: przełącznik „Opublikowane” w opisie seminarium i w referatach, zaraz pod tytułem (odznaczone = szkic, widoczny tylko na Podglądzie; seminarium-szkic ukrywa też swoje referaty).
 # Zlecenie 42: osoby wybierane ze spisu pracowników (pola „… ze spisu”: lista z katalogu _cms/pracownicy, który aktualizuje się sam po zmianie spisu), osoby spoza spisu wpisywane ręcznie.
-# Media (22.11.2026): tylko własne foldery repozytorium. Na stronie pliki ze wszystkich repozytoriów są we wspólnym /pliki,
-# a ten sam plik w dwóch repozytoriach zatrzymuje budowę; osobne foldery to wykluczają. Pilnuje skrypty/sprawdz_pola_cms.py (Web-Core).
+# Media (22.11.2026): jedno, we własnym folderze repozytorium (podfoldery zakłada redaktor). Na stronie pliki ze wszystkich repozytoriów są we wspólnym /pliki,
+# a ten sam plik w dwóch repozytoriach zatrzymuje budowę; własny folder repozytorium to wyklucza. Pilnuje skrypty/sprawdz_pola_cms.py (Web-Core).
 media:
 - name: seminarium
   label: 'Media'
@@ -36,7 +36,7 @@ content:
     default: true
   - name: body
     label: Opis (Markdown, wzory w $...$)
-    description: "Zwykły Markdown: akapity oddziela pusta linia; **pogrubienie**, *kursywa*, [tekst linku](https://…); lista: „- ” na początku linii; ## = nagłówek sekcji. Plik PDF: wgraj w „Media” i w linku wpisz samą nazwę pliku: [tekst](nazwa.pdf); plik z innego repozytorium: [tekst](Web-Nauka/nazwa.pdf). Po wgraniu sprawdź nazwę w Media: gdy taka już jest, CMS dopisze -1. Komentarze <!-- … --> to podpowiedzi; na stronie ich nie widać. Wzory w $…$."
+    description: "Zwykły Markdown: akapity oddziela pusta linia; **pogrubienie**, *kursywa*, [tekst linku](https://…); lista: „- ” na początku linii; ## = nagłówek sekcji. Plik PDF: wgraj w „Media” i w linku wpisz, gdzie leży w Media: [tekst](nazwa.pdf), w folderze: [tekst](folder/nazwa.pdf); z innego repozytorium: [tekst](Web-Nauka/nazwa.pdf). Po wgraniu sprawdź nazwę w Media: gdy taka już jest, CMS dopisze -1. Komentarze <!-- … --> to podpowiedzi; na stronie ich nie widać. Wzory w $…$."
     type: code
     options:
       format: markdown
@@ -169,7 +169,7 @@ content:
     type: string
   - name: body
     label: Streszczenie (Markdown, wzory w $...$)
-    description: "Zwykły Markdown: akapity oddziela pusta linia; **pogrubienie**, *kursywa*, [tekst linku](https://…); lista: „- ” na początku linii; ## = nagłówek sekcji. Plik PDF: wgraj w „Media” i w linku wpisz samą nazwę pliku: [tekst](nazwa.pdf); plik z innego repozytorium: [tekst](Web-Nauka/nazwa.pdf). Po wgraniu sprawdź nazwę w Media: gdy taka już jest, CMS dopisze -1. Komentarze <!-- … --> to podpowiedzi; na stronie ich nie widać. Wzory w $…$. Pusta Treść (albo sam komentarz) = referat bez streszczenia."
+    description: "Zwykły Markdown: akapity oddziela pusta linia; **pogrubienie**, *kursywa*, [tekst linku](https://…); lista: „- ” na początku linii; ## = nagłówek sekcji. Plik PDF: wgraj w „Media” i w linku wpisz, gdzie leży w Media: [tekst](nazwa.pdf), w folderze: [tekst](folder/nazwa.pdf); z innego repozytorium: [tekst](Web-Nauka/nazwa.pdf). Po wgraniu sprawdź nazwę w Media: gdy taka już jest, CMS dopisze -1. Komentarze <!-- … --> to podpowiedzi; na stronie ich nie widać. Wzory w $…$. Pusta Treść (albo sam komentarz) = referat bez streszczenia."
     type: code
     options:
       format: markdown
