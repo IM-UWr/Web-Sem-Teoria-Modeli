@@ -164,6 +164,7 @@ content:
   - name: sala
     label: Sala
     type: string
+    description: "Sam numer lub symbol sali (np. 605, WS, HS) = sala w IM UWr; strona pokaże „sala 605, IM UWr”. Inne miejsce wpisz z nazwą, np. „sala 12, Uniwersytet Medyczny” albo „A.4.1 C-19, Politechnika Wrocławska”. Zdalnie: online, zoom albo Teams."
   - name: sala_en
     label: 'EN: sala (opis miejsca po angielsku, gdy to nie numer sali; puste = wersja angielska pokaże salę po polsku)'
     type: string
